@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="check.png">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td> <h1><b> PESQUISA DE SATISFAÇÃO </b></h1></td>
+          <td><img  width="150" height="150" src='check.png'  /></td>
+          
+        </tr>
+       
+      </table>
+
+
+
+
+
+    <form method="POST">
+        <fieldset>
+            <legend><b>O que voce achou do site?</b></legend>
+            <p>
+            <input type="radio" id="avaliacao" value="bom" />
+            <label>Bom</label>
+            <input type="radio" id="avaliacao" value="mtbom" />
+            <label>Muito Bom</label>
+            <input type="radio" id="avaliacao" value="ruim" />
+            <label>Ruim</label>
+        </p>
+        <legend><b>O que voce mais gostou?</b></legend>
+        <p>
+            <select name="select">
+                <option value="valor1">Selecione</option>
+                <option value="valor2" >gato de botas</option>
+                <option value="valor3">homem aranha</option>
+              </select>
+        </p>
+        <legend><b>Digite seus comentarios no campo abaixo:</b></legend>
+        <p>
+            <textarea name="comentarios" id="comentarios">Insira aqui</textarea>
+        </p>
+        <legend><B>Como podemos entrar em contato com voce?</B></legend>
+        <p>
+        Nome: <input type="text" value=""> 
+        E-mail: <input type="text" value=""> 
+        Fone: <input type="text" value=""> 
+            </p>
+
+        <input type="checkbox" />Quero receber mensagens por e-mail
+<br><br>
+        <input type="submit" value="Enviar dados" /> 
+        <input type="reset" value="Limpar dados" />
+    </fieldset>
+    </form>
+</body>
+
+
+
+</html>
